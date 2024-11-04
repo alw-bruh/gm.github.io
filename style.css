@@ -1,0 +1,48 @@
+
+
+div {
+  
+
+}
+div ul {
+    list-style: none;
+}
+div ul li {
+    font-size: 12px;
+    padding-left: 0px;
+   
+    
+ 
+}
+svg {
+    border-style: solid;
+}
+
+
+#header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ 
+ padding-top: 0px;
+}
+#header h1 {
+    font-size: 124px;
+
+    margin-right: 36px;
+    font-style: italic;
+}
+#header p {
+    
+}
+
+#istilah {
+
+}
+
+
+
+#notasi div {
+    
+    
+}
