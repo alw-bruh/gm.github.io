@@ -1,48 +1,98 @@
-
-
-div {
-  
-
-}
-div ul {
+ul {
     list-style: none;
 }
-div ul li {
-    font-size: 12px;
-    padding-left: 0px;
-   
-    
- 
+h4 {
+    color: #4682b4;
 }
-svg {
-    border-style: solid;
+body {
+    font-family: Arial, sans-serif; /* Modern font */
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 20px;
 }
+
 
 
 #header {
- display: flex;
- flex-direction: row;
- align-items: center;
- 
- padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-bottom: 20px;
 }
+
 #header h1 {
     font-size: 124px;
-
+ 
     margin-right: 36px;
+    margin-top: 0px;
     font-style: italic;
-}
-#header p {
-    
+    color: #4682b4; /* Steel blue */
 }
 
 #istilah {
-
+    margin-bottom: 30px;
 }
 
+.shape-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #4682b4; /* Steel blue */
+    border-radius: 50%; /* Make it circular */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-#notasi div {
-    
-    
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #add8e6; /* Light blue */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #b0e0e6; /* Light blue */
+    margin: 20px;
+}
+
+#notasi h4 {
+    color: #4682b4; /* Steel blue for section titles */
+}
+
+/* Additional styles for table and list items */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #add8e6;
+}
+
+table th {
+    background-color: #b0e0e6; /* Light blue */
+}
+
+table tr:nth-child(even) {
+    background-color: #e0f7fa; /* Light blue for even rows */
+}
+
+table tr:hover {
+    background-color: #b2ebf2; /* Hover effect */
 }
