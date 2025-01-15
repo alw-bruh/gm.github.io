@@ -2,370 +2,209 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Refleksi-Geometri </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
- 
-    <div id="header"><h1>P'</h1>
-        <div>
-       
-        <p>
-            Refleksi dalam geometri adalah transformasi yang memindahkan setiap titik suatu bentuk ke posisi simetrisnya terhadap garis refleksi, menghasilkan bayangan identik yang simetris terhadap garis tersebut</p>
-    </div></div>
-    <div id="istilah">
-        <h4>Istilah-Istilah Penting dalam Refleksi Geometri</h4>
-        <ul>
-          <li>
-            <div>
-              <p>Garis Refleksi: Garis yang menjadi "cermin" tempat bayangan bentuk dicerminkan. Bisa berupa sumbu X, sumbu Y, atau garis diagonal seperti \( y = x \) dan \( y = -x \).</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Titik Awal: Titik awal dari suatu objek sebelum direfleksikan.</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Titik Bayangan: Titik hasil dari refleksi titik awal terhadap garis refleksi.</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Notasi: Biasanya titik awal diberi notasi \( P(x, y) \), dan hasil refleksi disebut \( P'(x', y') \).</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      
-      <div id="notasi">
-        <h4>Simbol dan Notasi Refleksi</h4>
-    
-        <!-- Reflection across the X-axis -->
-        <div style="display: flex; align-items: center; width: 100%; margin-bottom: 20px;">
-            <!-- Left Column: Line Notation -->
-            <div style="flex: 1; text-align: center;">
-                <svg style="width: 100%; height: 100%;" viewBox="0 0 50 50">
-                    <line x1="0" y1="25" x2="50" y2="25" style="stroke:black;stroke-width:2" />
-                    
-                </svg>
-            </div>
-            <!-- Right Column: Explanation -->
-            <div style="flex: 3;">
-                <ul>
-                    <li>
-                        <h4>Refleksi terhadap sumbu X</h4>
-                        <ul>
-                            <li><p>Simbol: Rx</p></li>
-                            <li><p>Notasi Transformasi: P(x, y) → P′(x, −y)</p></li>
-                            <li><p>Artinya, koordinat y dari titik awal berubah menjadi −y, sementara x tetap sama.</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    
-        <!-- Reflection across the Y-axis -->
-        <div style="display: flex; align-items: center; width: 100%; margin-bottom: 20px;">
-            <!-- Left Column: Line Notation -->
-            <div style="flex: 1; text-align: center;">
-                <svg style="width: 100%; height: 100%;" viewBox="0 0 50 50">
-                    <line x1="25" y1="0" x2="25" y2="50" style="stroke:black;stroke-width:2" />
-                   
-                </svg>
-            </div>
-            <!-- Right Column: Explanation -->
-            <div style="flex: 3;">
-                <ul>
-                    <li>
-                        <h4>Refleksi terhadap sumbu Y</h4>
-                        <ul>
-                            <li><p>Simbol: Ry</p></li>
-                            <li><p>Notasi Transformasi: P(x, y) → P′(−x, y)</p></li>
-                            <li><p>Artinya, koordinat x dari titik awal berubah menjadi −x, sementara y tetap sama.</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    
-        <!-- Reflection across the line y = x -->
-        <div style="display: flex; align-items: center; width: 100%; margin-bottom: 20px;">
-            <!-- Left Column: Line Notation -->
-            <div style="flex: 1; text-align: center;">
-                <svg style="width: 100%; height: 100%;" viewBox="0 0 50 50">
-                    <line x1="0" y1="50" x2="50" y2="0" style="stroke:black;stroke-width:2" />
-                    
-                </svg>
-            </div>
-            <!-- Right Column: Explanation -->
-            <div style="flex: 3;">
-                <ul>
-                    <li>
-                        <h4>Refleksi terhadap garis y = x</h4>
-                        <ul>
-                            <li><p>Simbol: Ry=x</p></li>
-                            <li><p>Notasi Transformasi: P(x, y) → P′(y, x)</p></li>
-                            <li><p>Artinya, x dan y saling bertukar tempat.</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    
-        <!-- Reflection across the line y = -x -->
-        <div style="display: flex; align-items: center; width: 100%; margin-bottom: 20px;">
-            <!-- Left Column: Line Notation -->
-            <div style="flex: 1; text-align: center;">
-                <svg style="width: 100%; height: 100%;" viewBox="0 0 50 50">
-                    <line x1="0" y1="0" x2="50" y2="50" style="stroke:black;stroke-width:2" />
-                  
-                </svg>
-            </div>
-            <!-- Right Column: Explanation -->
-            <div style="flex: 3;">
-                <ul>
-                    <li>
-                        <h4>Refleksi terhadap garis y = −x</h4>
-                        <ul>
-                            <li><p>Simbol: Ry=−x</p></li>
-                            <li><p>Notasi Transformasi: P(x, y) → P′(−y, −x)</p></li>
-                            <li><p>Artinya, x berubah menjadi −y dan y berubah menjadi −x.</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    
-
-   
-      
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refleksi Geometri dengan Grafik</title>
+    <title>Quran Blog</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
-        }
-
-        h1 {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
             color: #333;
+        }
+
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 1em;
             text-align: center;
-            font-weight: 600;
-            margin-bottom: 20px;
         }
 
-        label {
-            display: block;
-            font-weight: 500;
-            margin-bottom: 5px;
-            color: #444;
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        input, select {
+        .verse {
+            font-size: 1.5em;
+            color: #00796b;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        .verse p { 
+
+            text-align: end ;
+        }
+        .verse h6 {
+            font-weight: lighter;
+            text-align: start ; 
+        }
+        .verse h1 {
+            font-weight: lighter;
+        }
+        .verse ul  {
+            font-size: 14px ;
+            list-style: none;
+            text-align: start;
+           
+        }
+        .verse li {
+            padding-bottom: 24px;
+        }
+
+        .info {
+            margin-top: 1.5em;
+        }
+
+        .info h3 {
+            color: #00796b;
+        }
+
+        .info p {
+            line-height: 1.6;
+        
+            
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #00796b;
+            color: #fff;
+            margin-top: 2em;
+        }
+
+        .hukum-bacaan {
+            margin-top: 1.5em;
+        }
+
+        .hukum-bacaan h3 {
+            color: #00796b;
+            margin-bottom: 0.5em;
+        }
+
+        table {
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 12px;
-            background-color: #fff;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            font-size: 1rem;
+            border-collapse: collapse;
+            margin-top: 1em;
         }
 
-        button {
-            width: 100%;
-            padding: 12px;
-            background-color: #007bff;
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        tbody {
+        color: #00796b;
+        }
+
+        th {
+            background-color: #00796b;
             color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        #result {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            margin-top: 15px;
-            font-weight: 500;
-            color: #444;
-            text-align: center;
-        }
-
-        #myCanvas {
-            border-radius: 12px;
-            border: none;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            display: block;
-            margin: 30px auto 0;
-            background-color: #fff;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            background-color: #e8eef2;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Quran</h1>
+        <p>Explore the beauty and wisdom of the Quran</p>
+    </header>
 
-    <div class="container">
-        <h1>Refleksi Geometri</h1>
+    <main>
+        <div class="verse">
+            <h3>AL-Baqarah: 143</h3>
+        <p>وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ</p>
 
-        <label for="x">Koordinat X:</label>
-        <input type="number" id="x" placeholder="Masukkan X"><br>
 
-        <label for="y">Koordinat Y:</label>
-        <input type="number" id="y" placeholder="Masukkan Y"><br>
+            <h6>
 
-        <label for="reflection">Pilih Refleksi:</label>
-        <select id="reflection">
-            <option value="x">Sumbu X (x, y → x, -y)</option>
-            <option value="y">Sumbu Y (x, y → -x, y)</option>
-            <option value="xy">Garis y = x (x, y → y, x)</option>
-            <option value="negative-xy">Garis y = -x (x, y → -y, -x)</option>
-        </select><br>
 
-        <button onclick="calculateReflection()">Hitung Refleksi</button>
+                Wakażālika ja‘alnākum ummataw wasatāl litakụnụ syuhadā`a ‘alan-nāsi
 
-        <h3>Hasil Refleksi:</h3>
-        <p id="result"></p>
-    </div>
 
-    <!-- Area Canvas untuk menampilkan grafik -->
-    <canvas id="myCanvas" width="400" height="400"></canvas>
+            </h6>
+            <h6><b>QS Al-Baqarah: 143 </b > "mengingatkan kita untuk menjadi umat yang adil, seimbang, dan bertanggung jawab. Mari terapkan nilai-nilai ini dalam kehidupan sehari-hari"</h6>
+                <h5>Hikmah</h5>
+                <ul>
+                    <li>
+                        <strong>Keseimbangan dalam Kehidupan:</strong> Ayat ini menekankan pentingnya menjadi umat yang wasath (moderat) yang tidak berlebihan maupun terlalu lalai dalam kehidupan dunia dan akhirat.
+                    </li>
+                    <li>
+                        <strong>Kehormatan Umat Islam:</strong> Umat Islam dipilih oleh Allah untuk menjadi saksi atas umat-umat lain karena ajarannya yang menyeluruh dan seimbang.
+                    </li>
+                    <li>
+                        <strong>Tanggung Jawab Besar:</strong> Umat Islam memiliki tanggung jawab untuk menegakkan keadilan dan kebenaran di tengah masyarakat.
+                    </li>
+                    <li>
+                        <strong>Kedudukan Nabi Muhammad SAW:</strong> Nabi Muhammad SAW adalah saksi bagi umat Islam, menunjukkan betapa tingginya derajat beliau di sisi Allah.
+                    </li>
+                    <li>
+                        <strong>Persatuan Umat:</strong> Ayat ini mengajarkan pentingnya persatuan umat dalam menjalankan agama dengan menjauhi perpecahan dan fanatisme.
+                    </li>
+                </ul>
+           
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Hukum Bacaan</th>
+                    <th>Penggalan</th>
+                    <th>Cara Pelafalan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ikhfa</td>
+                    <td>وَسَطًۭا</td>
+                    <td>Huruf "ط" dibaca samar dengan sedikit dengung.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mad Thabi'i</td>
+                    <td>أُمَّةً</td>
+                    <td>Panjang bacaan dua harakat karena ada huruf mad diikuti hamzah.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Idgham Bighunnah</td>
+                    <td>لِّتَكُونُوا</td>
+                    <td>Huruf "ن" dileburkan ke huruf "و" dengan dengung.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mad Jaiz Munfasil</td>
+                    <td>شُهَدَآءَ</td>
+                    <td>Panjang bacaan antara dua hingga lima harakat karena ada mad diikuti hamzah dalam kata yang berbeda.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Alif Lam Syamsiyah</td>
+                    <td>ٱلنَّاسِ</td>
+                    <td>Huruf "ل" tidak dibaca jelas dan melebur ke huruf "ن" dengan sifat tebal.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Qalqalah Sughra</td>
+                    <td>جَعَلْنَٰكُمْ</td>
+                    <td>Huruf "ق" dibaca dengan pantulan suara saat sukun.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-    <script>
-        function calculateReflection() {
-            let x = parseFloat(document.getElementById('x').value);
-            let y = parseFloat(document.getElementById('y').value);
-            let reflectionType = document.getElementById('reflection').value;
-
-            let newX, newY;
-
-            if (reflectionType === 'x') {
-                newX = x;
-                newY = -y;
-            } else if (reflectionType === 'y') {
-                newX = -x;
-                newY = y;
-            } else if (reflectionType === 'xy') {
-                newX = y;
-                newY = x;
-            } else if (reflectionType === 'negative-xy') {
-                newX = -y;
-                newY = -x;
-            }
-
-            document.getElementById('result').innerText = `Koordinat setelah refleksi: (${newX}, ${newY})`;
-
-            drawGraph(x, y, newX, newY);
-        }
-
-        function drawGraph(originalX, originalY, reflectedX, reflectedY) {
-            let canvas = document.getElementById("myCanvas");
-            let ctx = canvas.getContext("2d");
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            ctx.strokeStyle = "#e0e0e0";
-            for (let i = 0; i <= 400; i += 20) {
-                ctx.beginPath();
-                ctx.moveTo(i, 0);
-                ctx.lineTo(i, 4000);
-                ctx.stroke();
-
-                ctx.beginPath();
-                ctx.moveTo(0, i);
-                ctx.lineTo(4000, i);
-                ctx.stroke();
-            }
-
-            ctx.strokeStyle = "#000000";
-            ctx.beginPath();
-            ctx.moveTo(0, 200);
-            ctx.lineTo(400, 200);
-            ctx.moveTo(200, 0);
-            ctx.lineTo(200, 400);
-            ctx.stroke();
-
-            ctx.fillStyle = "#000000";
-            ctx.font = "10px Arial";
-            for (let i = -9; i <= 9; i++) {
-                if (i !== 0) {
-                    ctx.fillText(i, 200 + i * 20 - 5, 215);
-                    ctx.fillText(-i, 185, 200 + i * 20 + 5);
-                }
-            }
-
-            ctx.beginPath();
-            ctx.arc(200 + originalX * 20, 200 - originalY * 20, 5, 0, 2 * Math.PI);
-            ctx.fillStyle = "blue";
-            ctx.fill();
-            ctx.fillText(`(${originalX}, ${originalY})`, 200 + originalX * 20 + 5, 200 - originalY * 20 - 5);
-
-            ctx.beginPath();
-            ctx.arc(200 + reflectedX * 20, 200 - reflectedY * 20, 5, 0, 2 * Math.PI);
-            ctx.fillStyle = "red";
-            ctx.fill();
-            ctx.fillText(`(${reflectedX}, ${reflectedY})`, 200 + reflectedX * 20 + 5, 200 - reflectedY * 20 - 5);
-
-            ctx.strokeStyle = "green";
-            ctx.setLineDash([5, 5]);
-            ctx.beginPath();
-            ctx.moveTo(200 + originalX * 20, 200 - originalY * 20);
-            ctx.lineTo(200 + reflectedX * 20, 200 - reflectedY * 20);
-            ctx.stroke();
-
-            ctx.setLineDash([5, 5]);
-            ctx.strokeStyle = "#0000FF";
-            ctx.beginPath();
-            ctx.moveTo(200 + originalX * 20, 200);
-            ctx.lineTo(200 + originalX * 20, 200 - originalY * 20);
-            ctx.stroke();
-
-            ctx.beginPath();
-            ctx.moveTo(200, 200 - originalY * 20);
-            ctx.lineTo(200 + originalX * 20, 200 - originalY * 20);
-            ctx.stroke();
-
-            ctx.strokeStyle = "#FF0000";
-            ctx.beginPath();
-            ctx.moveTo(200 + reflectedX * 20, 200);
-            ctx.lineTo(200 + reflectedX * 20, 200 - reflectedY * 20);
-            ctx.stroke();
-
-            ctx.beginPath();
-            ctx.moveTo(200, 200 - reflectedY * 20);
-            ctx.lineTo(200 + reflectedX * 20, 200 - reflectedY * 20);
-            ctx.stroke();
-        }
-    </script>
-
-</body>
-</html>
-
+    <footer>
+        <p>&copy; 2025 Quran Team 2</p>
+    </footer>
 </body>
 </html>
